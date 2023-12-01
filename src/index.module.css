@@ -1,0 +1,26 @@
+:root {
+    --white: #fff;
+    --gray-700: #1C1D1E;
+    --gray-600: #3C3E40;
+    --gray-500: #5B5F63;
+    --gray-400: #7F8489;
+    --gray-300: #9AA0A5;
+
+    --blue-500: #1E6F9F;
+    --blue-400: #4EA8DE;
+    --blue-300: #5E60CE;
+    --blue-200: #8284FA;
+
+    --red-300: #E25858;
+
+}
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    background: var(--gray-500);
+}

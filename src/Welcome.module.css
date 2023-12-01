@@ -1,0 +1,116 @@
+
+body, input, textarea, button, p, h1, h2, h3, h4, h5 { 
+    font-family: 'Inter', sans-serif;
+    font-weight: 400;
+    font-size: 1rem;
+}
+
+
+.head {
+   background: var(--gray-700); 
+   width: 100%;
+   height: 6.25rem;
+   
+   display: flex;
+   justify-content: center;
+   padding-top: 2rem;
+}
+
+.rocket {
+    color: var(--blue-400);
+    margin-top: 0.5rem;
+}
+
+.title {
+    margin-left: 0.125rem;
+    font-weight: bold;
+    font-size: 2rem;
+}
+
+.toColor {
+    color: var(--blue-200)
+}
+
+.doColor {
+    color: var(--blue-400)
+}
+
+.content {
+    background-color: var(--gray-500);
+    width: 100%;
+}
+
+.inputData {
+    display: flex;
+    justify-content: center;
+    position: relative;
+    top: -10px;
+    z-index: 1;
+}
+
+.inputData input {
+    width: 50%;
+    margin-right: 0.5rem;
+    height: 2rem;
+    background: var(--gray-600);
+    border: 1px solid var(--gray-600);
+    border-radius: 8px;
+    padding-top: 6px;
+    padding-bottom: 6px;
+}
+
+.inputData input::placeholder {
+    color: var(--white);
+    padding-left: 0.5rem;
+}
+
+.inputData input:focus {
+    color: var(--white);
+    padding-left: 0.5rem;
+    outline: 1px solid var(--gray-300);
+}
+
+.inputData button {
+    background: var(--blue-500);
+    border: 1px solid var(--blue-500);
+    border-radius: 8px;
+    color: var(--white);
+    font-weight: bold;
+    padding-left: 10px;
+    padding-right: 10px;
+}
+
+.inputData button:hover {
+    cursor: pointer;
+    background: var(--blue-400);
+    border: 1px solid var(--blue-400);
+}
+
+.iconContent {
+    padding-bottom: 15px;
+}
+
+.todoInfo {
+    display: flex;
+    justify-content: space-around;
+    margin-top: 2rem;
+    margin-bottom: 1rem;
+}
+
+.todoInfo p {
+    color: var(--blue-200)
+}
+
+.todInfoSpan {
+    background: var(--gray-600);
+    color: var(--white);
+    border: 1px solid var(--gray-600);
+    border-radius: 12px;
+    font-size: 0.9rem;
+}
+
+.taskList {
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+}

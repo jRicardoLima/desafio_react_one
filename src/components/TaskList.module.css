@@ -1,0 +1,78 @@
+.content {
+    background: var(--gray-600);
+    display: flex;
+    justify-content: center;
+    width: 40rem;
+    margin-left: 1.625rem;
+    margin-right: 1.625rem;
+    margin-bottom: 2rem;
+    padding-left: 1.625rem;
+    padding-right: 1.625rem;
+    padding-top: 1.625rem;
+    padding-bottom: 1.625rem;
+
+    border: 3px solid var(--gray-600);
+    border-radius: 12px;
+    color: var(--white);
+}
+
+.check {
+    display: flex;
+    justify-content: center;
+    margin-right: 0.5rem;
+    margin-bottom: 2rem;
+    appearance: none;
+    -webkit-appearance: none;
+    width: 16px;
+    height: 16px; 
+    border-radius: 50%; 
+    border: 3px solid var(--blue-400); 
+    outline: none;
+    
+}
+
+.check:hover {
+   border: 3px solid var(--blue-500); 
+}
+
+.check:checked {
+    background: var(--blue-300);
+    border: 3px solid var(--blue-300);
+    padding-bottom: 0.5rem;
+}
+
+.check:checked:hover {
+    background: var(--blue-200);
+    border: 3px solid var(--blue-200);
+    padding-bottom: 0.5rem;
+}
+.check:checked::before {
+    content: '\2713';
+    font-size: 0.75rem;
+    font-weight: bold;
+    color: var(--white);
+    margin-left: 0.1rem;
+    text-align: center;
+    
+}
+
+.paragraph {
+    width: 100%;
+}
+
+.text {
+    font-size: 0.875rem;
+    width: auto;
+}
+
+.textDecoration {
+    font-size: 0.875rem;
+    width: auto;
+    text-decoration: line-through;
+    color: var(--gray-700);
+}
+
+.icon:hover {
+    cursor: pointer;
+    background-color: var(--red-300);
+}
